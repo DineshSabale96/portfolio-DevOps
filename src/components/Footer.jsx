@@ -12,7 +12,7 @@ export default function Footer() {
         <a aria-label="LinkedIn" className="hover:text-amber" href={profile.linkedin} target="_blank" rel="noreferrer"><Linkedin size={20} /></a>
         <a aria-label="Email" className="hover:text-amber" href={`mailto:${profile.email}`}><Mail size={20} /></a>
       </div>
-      <p className="mt-6 text-xs text-dim">© {new Date().getFullYear()} {profile.name}. .</p>
+      <p className="mt-6 text-xs text-dim">© {new Date().getFullYear()} {profile.name}. All rights reserved.</p>
     </footer>
   )
 }
